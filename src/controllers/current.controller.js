@@ -6,7 +6,7 @@ export const current = async (req, res, next) => {
         const ipApi = "http://ip-api.com/json/";
         let location = req.params.city;
 
-        if(location === undefined){
+        if(location === undefined || location === "undefined"){
             const response = await fetch(ipApi);
             const data = await response.json();
             location = data.city;
