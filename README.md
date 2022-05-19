@@ -1,5 +1,6 @@
 # Challange Personal-API
 Implementacion de una API que provea en formato JSON el estado del tiempo basado en diferentes endpoints.
+Utilizacion de los servicios/librerias: -Supertest  -ip-api  -openweathermap
 
 
 ## Instalacion
@@ -16,14 +17,22 @@ Configurar .env con los siguientes datos
 
 ```
 PORT = 
-API_KEY = 
+API_KEY = Obtener de https://openweathermap.org/
 ```
 
 
-y poner a andar el proyecto
+## Iniciar
 
 ```
 npm start
 ```
+## Test
 
+```
+npm test
+```
+## Documentacion de Api en Swagger
 
+```
+/v1/api-docs
+```
