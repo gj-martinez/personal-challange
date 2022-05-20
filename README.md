@@ -9,11 +9,9 @@ git clone https://github.com/gj-martinez/personal-challange.git
 cd personal-challange
 npm install
 
-
-cp .env
 ```
 
-Configurar .env con los siguientes datos
+Crear y configurar .env con los siguientes datos
 
 ```
 PORT = 
